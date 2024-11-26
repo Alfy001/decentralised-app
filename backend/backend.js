@@ -100,6 +100,7 @@ const contractABI = [
     "type": "function"
   },
   {
+
     "inputs": [],
     "name": "getAdmin",
     "outputs": [

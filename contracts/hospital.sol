@@ -52,6 +52,7 @@ contract HospitalRecords {
         return admin;
     }
 
+
     // Admin registers a new patient
     function registerPatient(address _patient) public onlyRegisteredHospital {
         require(!registeredPatients[_patient], "Patient is already registered");
